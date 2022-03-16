@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "Ojah-sg" {
-  name        = "Ojah-sg"
+  name        = "Moyin-sg"
   description = "Created for SSH, HTTP, HTTPS and all other custom TCP inbound traffic"
    
 
@@ -58,6 +58,6 @@ resource "aws_security_group" "Ojah-sg" {
   }
 
   tags = {
-    Name = "Ojah"
+    Name = "Moyin"
   }
 }
